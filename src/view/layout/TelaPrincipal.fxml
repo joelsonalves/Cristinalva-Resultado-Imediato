@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu fx:id="menuModulo" mnemonicParsing="false" text="Módulo">
+            <items>
+              <MenuItem fx:id="menuModuloEstudante" mnemonicParsing="false" text="Estudante" />
+                  <MenuItem fx:id="menuModuloDocente" mnemonicParsing="false" text="Docente" />
+                  <MenuItem fx:id="menuModuloCoordenador" mnemonicParsing="false" text="Coordenador" />
+                  <MenuItem fx:id="menuModuloAdministrador" mnemonicParsing="false" text="Administrador" />
+            </items>
+          </Menu>
+          <Menu fx:id="menuAjuda" mnemonicParsing="false" text="Ajuda">
+            <items>
+              <MenuItem fx:id="menuAjudaSobre" mnemonicParsing="false" text="Sobre" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
